@@ -31,17 +31,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#050505] text-white selection:bg-[#d4af37] selection:text-black">
-      {/* Header - Sin botón de Área de Miembros */}
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-4 border-b border-white/10' : 'bg-transparent py-6'}`}>
-        <div className="container mx-auto px-6 flex justify-center md:justify-start items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 gold-gradient rounded-sm flex items-center justify-center">
-              <BookOpen className="text-black w-5 h-5" />
-            </div>
-            <span className="font-serif font-bold text-xl tracking-tight uppercase gold-text-gradient">Arquitectos Digitales</span>
-          </div>
-        </div>
-      </header>
+      {/* Header Eliminado */}
 
       {/* Hero Section - Modificado para incluir imagen a la derecha */}
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
@@ -381,7 +371,7 @@ const App: React.FC = () => {
             <div className="w-8 h-8 gold-gradient rounded-sm flex items-center justify-center">
               <BookOpen className="text-black w-5 h-5" />
             </div>
-            <span className="font-serif font-bold text-2xl uppercase tracking-tighter gold-text-gradient">Arquitectos Digitales</span>
+            <span className="font-serif font-bold text-2xl uppercase tracking-tighter gold-text-gradient">EXPERTO EN PLR PREMIUM</span>
           </div>
           <p className="font-serif text-2xl italic mb-12 text-gray-400">
             "Bienvenido al lado estratégico de la creación digital. Tu taller de transformación está listo. Solo falta que cruces el umbral y comiences a construir."
