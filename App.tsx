@@ -33,8 +33,8 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-[#050505] text-white selection:bg-[#d4af37] selection:text-black">
       {/* Header Eliminado */}
 
-      {/* Hero Section - Modificado para incluir imagen a la derecha */}
-      <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+      {/* Hero Section - Espacio superior reducido a la mitad */}
+      <section className="relative pt-16 pb-20 md:pt-24 md:pb-32 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#d4af3715] via-transparent to-transparent -z-10"></div>
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:text-left text-center">
