@@ -23,7 +23,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 300);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -189,6 +189,7 @@ const App: React.FC = () => {
           <div className="space-y-12">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/2 space-y-4">
+                <h3 className="font-serif text-2xl md:text-3xl font-bold text-gold italic">Secretos de Kindle Unlimited 2026</h3>
                 <h3 className="font-serif text-2xl md:text-3xl font-bold text-gold italic">Secretos de Kindle Unlimited 2026</h3>
                 <p className="text-gray-400 leading-relaxed">
                   Descubre por qué el algoritmo ya no premia los libros largos, sino aquellos con tasas de finalización superiores al 70%. Aprende a estructurar capítulos de 1.500-2.500 palabras con puntos de intriga que invitan al "solo un capítulo más".
@@ -393,10 +394,10 @@ const App: React.FC = () => {
         </div>
       </footer>
 
-      {/* Mobile Sticky CTA */}
-      <div className="md:hidden fixed bottom-6 left-6 right-6 z-40">
-        <a href="#precio" className="block w-full gold-gradient text-black py-4 rounded-full font-black shadow-[0_10px_30px_rgba(212,175,55,0.4)] text-center text-lg uppercase tracking-wider">
-          ACCEDER AHORA $97
+      {/* Floating Scroll CTA Popup */}
+      <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 transform ${scrolled ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-20 opacity-0 scale-90 pointer-events-none'}`}>
+        <a href="#precio" className="flex items-center gap-3 px-6 py-4 gold-gradient text-black rounded-full font-black shadow-[0_10px_40px_rgba(212,175,55,0.4)] hover:scale-105 transition-all gold-glow uppercase text-xs md:text-sm tracking-widest">
+          <Zap className="w-4 h-4 fill-black" /> ACCEDER AHORA $97
         </a>
       </div>
     </div>
