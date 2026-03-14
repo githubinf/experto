@@ -56,10 +56,13 @@ const App: React.FC = () => {
                 <p className="text-sm text-gray-500 italic">Un solo pago. Garantía de 30 días.</p>
               </div>
             </div>
-            <div className="lg:w-1/2 flex justify-center lg:justify-end">
+             <div className="lg:w-1/2 flex justify-center lg:justify-end">
                <img 
                 src="https://i.ibb.co/qLrjGRC4/experto-en-plr-premium.png" 
                 alt="Experto en PLR Premium" 
+                width="600"
+                height="600"
+                referrerPolicy="no-referrer"
                 className="max-w-full h-auto drop-shadow-[0_0_30px_rgba(212,175,55,0.3)] hover:scale-105 transition-transform duration-500"
                />
             </div>
