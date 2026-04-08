@@ -50,8 +50,8 @@ const App: React.FC = () => {
                 El Sistema Paso a Paso para Crear <span className="text-white font-medium">Infoproductos Rentables</span> que venden. Con Herramientas Digitales Actuales.
               </p>
               <div className="flex flex-col md:flex-row items-center lg:justify-start justify-center gap-6">
-                <a href="#precio" className="gold-gradient text-black px-10 py-5 rounded-sm font-bold text-lg hover:scale-105 transition-transform gold-glow flex items-center gap-2 group">
-                  ACCEDER POR $97 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <a href="https://fcofrancis.pay.clickbank.net/?cbitems=1&template=plr1" className="gold-gradient text-black px-10 py-5 rounded-sm font-bold text-lg hover:scale-105 transition-transform gold-glow flex items-center gap-2 group">
+                  ACCEDER POR $69 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <p className="text-sm text-gray-500 italic">Un solo pago. Garantía de 30 días.</p>
               </div>
@@ -60,8 +60,8 @@ const App: React.FC = () => {
                <img 
                 src="https://i.ibb.co/qLrjGRC4/experto-en-plr-premium.png" 
                 alt="Experto en PLR Premium" 
-                width="600"
-                height="600"
+                width="480"
+                height="480"
                 referrerPolicy="no-referrer"
                 className="max-w-full h-auto drop-shadow-[0_0_30px_rgba(212,175,55,0.3)] hover:scale-105 transition-transform duration-500"
                />
@@ -308,7 +308,7 @@ const App: React.FC = () => {
             
             <div className="flex flex-col items-center justify-center gap-2 mb-12">
               <span className="text-gray-500 line-through text-2xl font-light italic">$297 USD</span>
-              <span className="text-8xl md:text-9xl font-serif font-black gold-text-gradient leading-none">$97</span>
+              <span className="text-8xl md:text-9xl font-serif font-black gold-text-gradient leading-none">$69</span>
               <span className="text-gray-400 mt-2 font-light">PAGO ÚNICO • ACCESO VITALICIO</span>
             </div>
 
@@ -331,9 +331,9 @@ const App: React.FC = () => {
               </div>
             </div>
 
-            <button className="w-full gold-gradient text-black py-6 rounded-sm font-black text-2xl hover:scale-[1.03] transition-transform gold-glow uppercase tracking-widest flex items-center justify-center gap-4 mb-8">
+            <a href="https://fcofrancis.pay.clickbank.net/?cbitems=1&template=plr1" className="w-full gold-gradient text-black py-6 rounded-sm font-black text-2xl hover:scale-[1.03] transition-transform gold-glow uppercase tracking-widest flex items-center justify-center gap-4 mb-8">
               CRUZAR EL UMBRAL <ArrowRight className="w-7 h-7" />
-            </button>
+            </a>
             
             <p className="text-xs text-gray-500 leading-relaxed max-sm mx-auto">
               Al hacer clic, inicias una transformación que cambiará no solo tus ingresos, sino tu relación con la creación digital para siempre.
@@ -399,8 +399,8 @@ const App: React.FC = () => {
 
       {/* Floating Scroll CTA Popup */}
       <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 transform ${scrolled ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-20 opacity-0 scale-90 pointer-events-none'}`}>
-        <a href="#precio" className="flex items-center gap-3 px-6 py-4 gold-gradient text-black rounded-full font-black shadow-[0_10px_40px_rgba(212,175,55,0.4)] hover:scale-105 transition-all gold-glow uppercase text-xs md:text-sm tracking-widest">
-          <Zap className="w-4 h-4 fill-black" /> ACCEDER AHORA $97
+        <a href="https://fcofrancis.pay.clickbank.net/?cbitems=1&template=plr1" className="flex items-center gap-3 px-6 py-4 gold-gradient text-black rounded-full font-black shadow-[0_10px_40px_rgba(212,175,55,0.4)] hover:scale-105 transition-all gold-glow uppercase text-xs md:text-sm tracking-widest">
+          <Zap className="w-4 h-4 fill-black" /> ACCEDER AHORA $69
         </a>
       </div>
     </div>
