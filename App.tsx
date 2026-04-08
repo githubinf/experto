@@ -55,7 +55,7 @@ const App: React.FC = () => {
                   onClick={scrollToPrice}
                   className="gold-gradient text-black px-10 py-5 rounded-sm font-bold text-lg hover:scale-105 transition-transform gold-glow flex items-center gap-2 group cursor-pointer"
                 >
-                  ACCEDER POR 69$ <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  ACCEDER POR 47$ <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
                 <div className="text-left">
                   <p className="text-sm text-gray-400 font-medium">Un solo pago. Garantía de 30 días.</p>
@@ -370,8 +370,8 @@ const App: React.FC = () => {
 
           <div className="bg-black/60 p-10 border border-gold/30 mb-12">
             <p className="text-gray-400 mb-4 uppercase tracking-widest">El precio de este sistema completo es de:</p>
-            <p className="text-7xl md:text-9xl font-serif font-black gold-text-gradient mb-4">69$</p>
-            <p className="text-gold uppercase tracking-widest font-bold text-xl">Piénsalo: 69$</p>
+            <p className="text-7xl md:text-9xl font-serif font-black gold-text-gradient mb-4">47$</p>
+            <p className="text-gold uppercase tracking-widest font-bold text-xl">Piénsalo: 47$</p>
             <p className="text-gray-500 mt-2 italic">Un solo pago. Acceso vitalicio. No es un error tipográfico.</p>
           </div>
 
@@ -406,7 +406,7 @@ const App: React.FC = () => {
                 <tbody>
                   <tr>
                     <td className="p-4 border-b border-white/10">Tu inversión</td>
-                    <td className="p-4 border-b border-white/10 text-white font-bold">69$</td>
+                    <td className="p-4 border-b border-white/10 text-white font-bold">47$</td>
                   </tr>
                   <tr>
                     <td className="p-4 border-b border-white/10">Aplicas solo el Capítulo 3 (Transformación con IA)</td>
@@ -422,11 +422,11 @@ const App: React.FC = () => {
                   </tr>
                   <tr className="bg-gold/10">
                     <td className="p-4 border-b border-white/10 font-bold text-gold">Con 2 ventas</td>
-                    <td className="p-4 border-b border-white/10 text-white font-bold">Recuperas tu inversión (74$)</td>
+                    <td className="p-4 border-b border-white/10 text-white font-bold">Recuperas tu inversión y generas beneficios (74$)</td>
                   </tr>
                   <tr className="bg-gold/20">
-                    <td className="p-4 border-b border-white/10 font-bold text-gold">Con 3 ventas</td>
-                    <td className="p-4 border-b border-white/10 text-white font-bold">Has triplicado tu inversión (111$)</td>
+                    <td className="p-4 border-b border-white/10 font-bold text-gold">Con 4 ventas</td>
+                    <td className="p-4 border-b border-white/10 text-white font-bold">Has triplicado tu inversión (148$)</td>
                   </tr>
                 </tbody>
               </table>
@@ -437,7 +437,7 @@ const App: React.FC = () => {
           <p className="text-2xl font-serif italic text-white mt-12">
             "De un PLR de 17$ a un producto de 297$: esa es la transformación que enseñamos."
           </p>
-          <p className="text-gold font-bold mt-4">Estás invirtiendo 69$ por el plano detallado de una máquina que puede generar miles.</p>
+          <p className="text-gold font-bold mt-4">Estás invirtiendo 47$ por el plano detallado de una máquina que puede generar miles.</p>
         </div>
       </section>
 
@@ -546,7 +546,7 @@ const App: React.FC = () => {
             <div className="p-8 bg-gold/5 border border-gold/20">
               <h3 className="text-gold font-bold mb-4 uppercase tracking-widest text-xs">CAMINO B) Dar el paso decisivo</h3>
               <p className="text-sm text-gray-300">
-                Invertir 69$. Descargar el sistema. Aplicar el método. Experimentar por ti mismo la potencia de tener un plan claro y un proceso probado.
+                Invertir 47$. Descargar el sistema. Aplicar el método. Experimentar por ti mismo la potencia de tener un plan claro y un proceso probado.
               </p>
             </div>
           </div>
@@ -559,7 +559,7 @@ const App: React.FC = () => {
           <div id="precio" className="max-w-3xl mx-auto border-2 border-gold p-12 bg-black/80 rounded-sm shadow-[0_0_60px_rgba(212,175,55,0.1)]">
             <h2 className="font-serif text-4xl md:text-6xl font-bold mb-4">EXPERTO EN <span className="gold-text-gradient">PLR</span></h2>
             <p className="text-gold uppercase tracking-[0.3em] font-bold text-sm mb-6">Oferta Especial de Lanzamiento</p>
-            <div className="text-7xl md:text-9xl font-serif font-black gold-text-gradient mb-6">69$</div>
+            <div className="text-7xl md:text-9xl font-serif font-black gold-text-gradient mb-6">47$</div>
             <p className="text-gray-400 uppercase tracking-widest text-xs mb-10">ACCESO INMEDIATO · ACTUALIZACIONES VITALICIAS · GARANTÍA 30 DÍAS</p>
             
             <a href={paymentLink} target="_blank" rel="noopener noreferrer" className="w-full gold-gradient text-black py-6 rounded-sm font-black text-2xl hover:scale-[1.03] transition-transform gold-glow uppercase tracking-widest flex items-center justify-center gap-4 mb-8">
@@ -567,7 +567,7 @@ const App: React.FC = () => {
             </a>
             
             <p className="text-sm text-gold font-bold mb-4">¡ATENCIÓN! Precio de lanzamiento por tiempo limitado.</p>
-            <p className="text-xs text-gray-500 italic mb-4">Este precio de 69$ es una oferta para los primeros lectores. Después subirá.</p>
+            <p className="text-xs text-gray-500 italic mb-4">Este precio de 47$ es una oferta para los primeros lectores. Después subirá.</p>
             <p className="text-xs text-gray-600">Pago 100% seguro. Acceso instantáneo tras la compra.</p>
           </div>
 
@@ -597,7 +597,7 @@ const App: React.FC = () => {
           onClick={scrollToPrice}
           className="flex items-center gap-3 px-6 py-4 gold-gradient text-black rounded-full font-black shadow-[0_10px_40px_rgba(212,175,55,0.4)] hover:scale-105 transition-all gold-glow uppercase text-xs md:text-sm tracking-widest cursor-pointer"
         >
-          <Zap className="w-4 h-4 fill-black" /> ACCEDER AHORA 69$
+          <Zap className="w-4 h-4 fill-black" /> ACCEDER AHORA 47$
         </button>
       </div>
     </div>
